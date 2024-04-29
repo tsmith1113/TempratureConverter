@@ -18,13 +18,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Fahrenheit</a>
+                    <a class="nav-link active" aria-current="page" href="Fahrenheit.html">Fahrenheit</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Celsius</a>
+                    <a class="nav-link" href="Celsius.html">Celsius</a>
                   </li>
               </div>
             </div>
@@ -34,12 +34,25 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                 <h1>Fahrenheit</h1>   
+                 <h1>Fahrenheit to Celsius</h1>   
                 </div>
 
             </div>
             <div class="row">
                 <div class="col">
+                    <div id = "theCalculator">
+                    <div class = "mb-3">
+                        <label class="form-label"for="fahrenheitInput">Fahrenheit: </label>
+                        <input id="fahrenheitInput" class= "form-control"type="text">                        
+                    </div>
+                    <div class = "mb-3">
+                      <input id="calculateButton" type="button" value="Calculate">
+                  </div>  
+                    <div class = "mb-3">
+                      <label class="form-label"for="celsiusOutput">Celsius: </label>
+                      <input id="celsiusOutput" class= "form-control"type="text">                        
+                  </div>  
+                </div>
             </div>
         </div>
     </div>
@@ -61,5 +74,6 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script/site.js"></script>
+    <script src ="scripts/Fahrenheit.js"></script>
   </body>
 </html>
